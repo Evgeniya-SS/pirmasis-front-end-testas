@@ -8,21 +8,30 @@ body * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-body{
-    
+body {
+    color: blueviolet;
+    font-size: 20px;
+    margin-top: 10px;
+}
+div {
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    height: 100 vh;
 }
 
 .background {
-    display: inline-block;
-    width: 100%;
     background-color: red;
 }
 
-    .background > h1 {
+    h1 {
         font-size: 20px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     }
-    .background > p {
-
+    p {
+        color: white;
+        text-align: bottom;
+        font-size: 20px;
+        -webkit-transform: unset;
     }
